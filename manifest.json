@@ -1,0 +1,20 @@
+{
+  "name": "Censorasaurus",
+  "version": "0.1",
+  "description": "Replace potty words with glorious dinosaurs!",
+  "background_page": "background.html",
+  "page_action" : {
+    "default_icon" : "icon-16.png",
+    "default_title" : "This page has been censorasaurussed!"
+  },
+  "icons": { "16":  "icon-16.png",
+             "48":  "icon-48.png",
+             "128": "icon-128.png" },
+  "content_scripts": [
+    {
+      "matches": ["http://*/*",
+                  "https://*/*"],
+      "js": ["jquery.js", "censorasaurus.js"]
+    }
+  ]
+}

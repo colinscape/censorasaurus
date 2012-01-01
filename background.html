@@ -1,0 +1,17 @@
+<DOCTYPE html>
+<html>
+<head>
+<script>
+chrome.extension.onRequest.addListener(
+   function(request, sender, sendResponse) {
+
+     if (request.madeChange == true) {
+        chrome.pageAction.show(sender.tab.id);
+     }
+
+  });
+</script>
+</head>
+<body>
+</body>
+</html>
