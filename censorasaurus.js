@@ -1,4 +1,4 @@
-var badWords = ["Fuck", "Shit", "Cunt", "Bastard", "Piss", "Wank", "Bitch"];
+var badWords = ["Fuck", "Shit", "Cunt", "Bastard", "Piss", "Wank", "Bitch", "Motherfucker", "Wanker", "Nigger", "Prick", "Bollocks", "Arsehole", "Paki", "Shag", "Whore", "Twat", "Piss", "Spastic", "Slag", "Shit", "Dickhead", "Arse", "Bugger", "Balls", "Jew", "Sodding", "Jesus", "Christ", "Crap", "Bloody", "God"];
 var dinosaurs = ["Brontosaurus", "Diplodocus", "Velociraptor", "Gigantosaurus", ];
 
 var nBadWords = badWords.length;
